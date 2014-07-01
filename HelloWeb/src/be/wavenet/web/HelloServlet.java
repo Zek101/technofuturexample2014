@@ -27,7 +27,7 @@ public class HelloServlet extends HttpServlet {
 		if(count==null) count = 0L;
 		count++;
 				
-		servletContext.setAttribute("count", count);
+		servletContext.setAttribute("count Belgium 1 - USA: 0", count);
 		
 		String username = null;
 		
